@@ -1,20 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yboukhmi <yboukhmi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/16 15:06:40 by yboukhmi          #+#    #+#             */
-/*   Updated: 2025/10/19 14:38:39 by yboukhmi         ###   ########.fr       */
+/*   Created: 2025/10/19 14:16:18 by yboukhmi          #+#    #+#             */
+/*   Updated: 2025/10/19 14:57:49 by yboukhmi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_tolower(int c)
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	if (c <= 'Z' && c >= 'A')
-		c += 32;
-	return (c);
+	size_t	i;
+
+	if (!s || !f)
+		return (NULL);
+	i = 0;
+	while (s[i])
+	{
+		(*f)((unsigned int)i, &s[i]);
+		i++;
+	}
 }
