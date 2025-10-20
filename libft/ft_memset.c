@@ -6,7 +6,7 @@
 /*   By: yboukhmi <yboukhmi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 18:37:06 by yboukhmi          #+#    #+#             */
-/*   Updated: 2025/10/16 10:29:13 by yboukhmi         ###   ########.fr       */
+/*   Updated: 2025/10/20 15:42:56 by yboukhmi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,4 @@ void	*ft_memset(void *b, int c, size_t len)
 		i++;
 	}
 	return (b);
-}
+} 
