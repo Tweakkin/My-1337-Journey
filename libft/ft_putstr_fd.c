@@ -6,13 +6,13 @@
 /*   By: yboukhmi <yboukhmi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/19 15:43:55 by yboukhmi          #+#    #+#             */
-/*   Updated: 2025/10/19 15:47:14 by yboukhmi         ###   ########.fr       */
+/*   Updated: 2025/10/21 12:02:34 by yboukhmi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
 	if (!s)
 		return;
