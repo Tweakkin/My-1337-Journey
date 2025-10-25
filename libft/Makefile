@@ -23,11 +23,9 @@ $(NAME) : $(OBJS)
 %.o: %.c
 	$(CC) $(FLAGS) -c $< -o $@
 
-bonus: .bonus
+bonus: $(OBJS_BONUS) $(OBJS)
+	ar rcs $(NAME) $(OBJS_BONUS)
 
-.bonus: $(OBJS_BONUS)
-	ar rcs $(NAME) $(OBJS_BON)
-	@touch .bonus
 clean:
 	rm -rf $(OBJS) $(OBJS_BONUS) 
 
