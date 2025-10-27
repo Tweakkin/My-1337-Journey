@@ -27,7 +27,7 @@ bonus: $(OBJS_BONUS) $(OBJS)
 	ar rcs $(NAME) $(OBJS_BONUS)
 
 clean:
-	rm -rf $(OBJS) $(OBJS_BONUS) 
+	rm -rf $(OBJS_BONUS) $(OBJS)
 
 fclean: clean
 	rm -rf $(NAME)

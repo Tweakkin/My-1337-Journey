@@ -6,7 +6,7 @@
 /*   By: yboukhmi <yboukhmi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 10:15:37 by yboukhmi          #+#    #+#             */
-/*   Updated: 2025/10/23 11:34:45 by yboukhmi         ###   ########.fr       */
+/*   Updated: 2025/10/25 20:05:50 by yboukhmi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,10 @@ int	ft_atoi(const char *str)
 		i++;
 	}
 	return (result * sign);
+}
+#include <stdio.h>
+int	main()
+{
+	printf("%d\n", ft_atoi("2154687986513237761235453123101353"));
+	printf("%d\n", atoi("2154687986513237761235453123101353"));
 }

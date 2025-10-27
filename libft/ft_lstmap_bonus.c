@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*    ft_lstmap_bonus.c                                 :+:      :+:    :+:   */
+/*   ft_lstmap_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yboukhmi <yboukhmi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 14:37:39 by yboukhmi          #+#    #+#             */
-/*   Updated: 2025/10/22 15:10:45 by yboukhmi         ###   ########.fr       */
+/*   Updated: 2025/10/25 16:35:57 by yboukhmi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,17 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		lst = lst->next;
 	}
 	return (newlst);
+}
+
+int main()
+{
+	t_list *head;
+	
+
+	int *a;
+
+	a = malloc(sizeof(int));
+	t_list
+
+	
 }

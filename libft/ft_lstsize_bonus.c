@@ -6,12 +6,12 @@
 /*   By: yboukhmi <yboukhmi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 13:58:19 by yboukhmi          #+#    #+#             */
-/*   Updated: 2025/10/21 18:28:42 by yboukhmi         ###   ########.fr       */
+/*   Updated: 2025/10/25 16:24:07 by yboukhmi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+//s
 int	ft_lstsize(t_list *lst)
 {
 	int	i;
