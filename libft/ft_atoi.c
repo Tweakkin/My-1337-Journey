@@ -36,9 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-#include <stdio.h>
-int	main()
-{
-	printf("%d\n", ft_atoi("2154687986513237761235453123101353"));
-	printf("%d\n", atoi("2154687986513237761235453123101353"));
-}
